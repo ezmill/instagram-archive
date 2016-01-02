@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			body {
+				background-color: #261f1b;
+				font-size:13px;
+				margin: 0px;
+				/*height: 200vh;*/
+
+			}
+			#container{
+				width: 100vw;
+				height: 100vh;
+				position: fixed;
+			}
+			.content{
+				width: 50%;
+				height: 100vh;
+				float: left;
+				text-align: center;
+			}
+			.container-image{
+				/*display: block;*/
+				width: 200px;
+				height: auto;
+				/*text-align: center;*/
+				position: relative;
+				top: 50%;
+				/*float: left;*/
+				/*left: 50%;*/
+				-webkit-transform: translateY(-50%);
+				   -moz-transform: translateY(-50%);
+				    -ms-transform: translateY(-50%);
+				     -o-transform: translateY(-50%);
+				        transform: translateY(-50%);
+				border: 1px solid black;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="content">
+				<img style="margin-left: 200px;" class="container-image" src="" alt="">
+			</div>
+			<div class="content" >
+				<img style="margin-right: 200px;"  class="container-image" src="" alt="">
+			</div>
+		</div>
+	<script src="scripts/js/main.js"></script>
+	</body>
+</html>
